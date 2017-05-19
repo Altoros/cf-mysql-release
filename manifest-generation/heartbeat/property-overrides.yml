@@ -3,6 +3,16 @@ property_overrides:
   #  deployment_name: REPLACE_WITH_YOUR_DEPLOYMENT_NAME # Optional, when setting this parameter, it overrides the hardcoded deployment name
   syslog_aggregator: ~
   mysql:
+    seeded_databases:
+      - name: db1
+        username: user1
+        password: pw1
+      - name: db2
+        username: user2
+        password: pw2
+      - name: db3
+        username: user3
+        password: pw3
     admin_password: REPLACE_WITH_A_PASSWORD_YOU_MAKE_UP #The admin password for the MySQL server process
     roadmin_enabled: true
     roadmin_password: REPLACE_WITH_A_PASSWORD_YOU_MAKE_UP
