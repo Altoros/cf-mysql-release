@@ -1,0 +1,5 @@
+release_versions:
+  cf-mysql:
+    version: 35
+  routing:
+    version: 0.154.0
